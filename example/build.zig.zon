@@ -1,0 +1,10 @@
+.{
+    .name = "wav_example",
+    .version = "0.0.1",
+    .paths = .{""},
+    .dependencies = .{
+        .wavez = .{
+            .path = "../wavez",
+        },
+    },
+}
